@@ -1,0 +1,13 @@
+LIBRARY XInput1_3
+EXPORTS
+    XInputGetState                  = Proxy_XInputGetState                  @2
+    XInputSetState                  = Proxy_XInputSetState                  @3
+    XInputGetCapabilities           = Proxy_XInputGetCapabilities           @4
+    XInputEnable                    = Proxy_XInputEnable                    @5
+    XInputGetDSoundAudioDeviceGuids = Proxy_XInputGetDSoundAudioDeviceGuids @6
+    XInputGetBatteryInformation     = Proxy_XInputGetBatteryInformation     @7
+    XInputGetKeystroke              = Proxy_XInputGetKeystroke              @8
+    XInputGetStateEx                = Proxy_XInputGetStateEx                @100 NONAME
+    XInputWaitForGuideButton        = Proxy_XInputWaitForGuideButton        @101 NONAME
+    XInputCancelGuideButtonWait     = Proxy_XInputCancelGuideButtonWait     @102 NONAME
+    XInputPowerOffController        = Proxy_XInputPowerOffController        @103 NONAME

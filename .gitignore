@@ -1,0 +1,12 @@
+archive/
+fra
+fra_*
+*.backup
+lots/
+cache.jsonl
+corrections.tsv
+__pycache__/
+dll/build/
+app/bin/
+app/obj/
+app/publish/
